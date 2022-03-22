@@ -90,7 +90,7 @@ const update = () => {
   meaning.innerText = words[currentIndex].meaning
   index.innerText = `${currentIndex + 1}/${length}`
   isAudio = false
-  isAudio = false
+  isImage = false
 }
 
 update()
