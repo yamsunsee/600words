@@ -1236,7 +1236,7 @@ data = [
     audio: "https://600tuvungtoeic.com/audio/expert.mp3",
   },
   {
-    english: "follow up ",
+    english: "follow up",
     hint: "to continue, to take additional steps",
     meaning: "(v) theo sau, bám miết; (n) tiếp theo, kế tiếp",
     example:

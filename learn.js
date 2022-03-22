@@ -8,7 +8,6 @@ const next = document.querySelector("#next")
 
 const words = data.sort(() => Math.random() - 0.5)
 const length = words.length
-console.log("words:", words)
 let currentIndex = 0
 
 next.onclick = () => {

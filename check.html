@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./main.min.css" />
+    <title>Toeic Essential 600 Words</title>
+  </head>
+  <body class="p-8 pt-12 flex items-center justify-center h-screen select-none bg-[#2c3e50]">
+    <div
+      class="relative w-1/2 h-full shadow-2xl flex p-4 flex-col justify-center items-center gap-4 text-center bg-[#34495e] rounded-lg"
+    >
+      <div
+        class="absolute bg-orange-500 px-4 py-2 text-orange-200 rounded-lg font-bold text-xl top-0 -right-8 transform translate-x-full"
+      >
+        Excellent: <span id="excellent" class="text-blue-700">0</span>
+        <br />
+        Good: <span id="good" class="text-green-700">0</span>
+        <br />
+        Normal: <span id="normal" class="text-purple-700">0</span>
+        <br />
+        Fail: <span id="fail" class="text-red-700">0</span>
+      </div>
+      <div
+        id="index"
+        class="absolute bg-orange-500 px-4 py-2 font-bold text-orange-200 rounded-lg text-2xl top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+      ></div>
+      <div id="meaning" class="font-bold text-2xl text-green-500"></div>
+      <img id="image" class="max-h-64" />
+      <div id="audio" class="text-4xl text-purple-500 hover:text-purple-600 cursor-pointer">
+        <ion-icon name="play-circle"></ion-icon>
+      </div>
+      <div class="flex gap-8 items-center">
+        <input type="text" placeholder="Enter your answer here..." class="p-4 rounded-lg" />
+        <div id="english" class="font-bold text-2xl text-red-500"></div>
+      </div>
+      <div>
+        <div id="correct" class="hidden text-green-500 font-bold text-2xl">Correct!</div>
+        <div id="incorrect" class="hidden text-red-500 font-bold text-2xl">Incorrect!</div>
+      </div>
+      <ion-icon
+        id="next"
+        class="hidden absolute right-4 text-4xl text-blue-500 hover:text-blue-600 cursor-pointer"
+        name="chevron-forward-circle"
+      ></ion-icon>
+    </div>
+    <script src="./data.js"></script>
+    <script src="./check.js"></script>
+  </body>
+</html>
