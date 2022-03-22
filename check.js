@@ -34,7 +34,8 @@ audio.onclick = () => {
 }
 
 const check = (standard, input) => {
-  standard = standard.split(" /")[0].replace(" N/A", "")
+  standard = standard.split(" /")[0].replace(" N/A", "").trim()
+  input = input.trim()
   return standard.includes(input.toLowerCase()) && input.length / standard.length === 1
 }
 

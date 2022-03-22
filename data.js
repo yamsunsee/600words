@@ -828,7 +828,7 @@ data = [
     audio: "https://600tuvungtoeic.com/audio/practice.mp3",
   },
   {
-    english: "reinforce  /,ri:in'fɔ:s/",
+    english: "reinforce /,ri:in'fɔ:s/",
     hint: "to make a feeling, an idea, etc. stronger",
     meaning: "tăng cường, củng cố, gia cố",
     example:
