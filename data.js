@@ -2291,7 +2291,7 @@ data = [
   {
     english: "outstanding /aut'stændiɳ/",
     hint: "extremely good; excellent",
-    meaning: "còn tồn tại, chưa giải quyết xong, chưa trả nợ",
+    meaning: "vượt trội; còn tồn tại, chưa giải quyết xong, chưa trả nợ",
     example: "She has outstanding debts of over £500.Cô ấy còn khoản nợ hơn 500 triệu bảng Anh.",
     image: "https://600tuvungtoeic.com/template/english/images/study/outstanding.jpg",
     audio: "https://600tuvungtoeic.com/audio/outstanding.mp3",
@@ -2449,7 +2449,7 @@ data = [
   {
     english: "file /fail/",
     hint: "to present something so that it can be officially recorded and dealt with",
-    meaning: "sắp xếp, sắp đặt",
+    meaning: "tập tin",
     example: "To file a claim / complaint / petition / lawsuit (How to File a Lawsuit)",
     image: "https://600tuvungtoeic.com/template/english/images/study/file.jpg",
     audio: "https://600tuvungtoeic.com/audio/file.mp3",
@@ -2754,7 +2754,7 @@ data = [
     audio: "https://600tuvungtoeic.com/audio/adhere to.mp3",
   },
   {
-    english: "agenda a list of items to be discussed at a meeting",
+    english: "agenda /əˈdʒendə/",
     hint: "The next item on the agenda is the publicity budget.",
     meaning: "nhật ký công tác, chương trình nghị sự",
     example:
@@ -3119,7 +3119,7 @@ data = [
   {
     english: "indicator /'indikeitə/",
     hint: "a sign that shows you what something is like or how a situation is changing",
-    meaning: "‹người/vật/chất› chỉ, chỉ thị (VD",
+    meaning: "‹người/vật/chất› chỉ, chỉ thị",
     example:
       "If the economy is an accurate indicator, rental prices will increase rapidly in the next six monthsNếu nền kinh tế là chỉ báo chính xác, tiền thuê (nhà) sẽ tăng nhanh chóng trong 6 tháng tới",
     image: "https://600tuvungtoeic.com/template/english/images/study/indicator.jpg",

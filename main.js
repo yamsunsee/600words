@@ -12,7 +12,7 @@ console.log("words:", words)
 let currentIndex = 0
 
 next.onclick = () => {
-  currentIndex = Math.min(++currentIndex, length)
+  currentIndex = Math.min(++currentIndex, length - 1)
   update()
 }
 
