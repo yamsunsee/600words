@@ -11,6 +11,7 @@ const excellent = document.querySelector("#excellent")
 const good = document.querySelector("#good")
 const normal = document.querySelector("#normal")
 const fail = document.querySelector("#fail")
+const result = document.querySelector("#result")
 
 const words = data.sort(() => Math.random() - 0.5)
 const length = words.length
@@ -92,6 +93,15 @@ const update = () => {
   index.innerText = `${currentIndex + 1}/${length}`
   isAudio = false
   isImage = false
+  if (excellentScore + goodScore + normalScore + failScore === length) {
+    index.classList.add("hidden")
+    input.classList.add("hidden")
+    meaning.classList.add("hidden")
+    audio.classList.add("hidden")
+    result.classList.remove("hidden")
+    result.innerText = `${(((excellentScore * 3 + goodScore * 2 + normalScore) * 100) / (length * 3)).toFixed(2)}%`
+    document.removeEventListener("keydown")
+  }
 }
 
 update()

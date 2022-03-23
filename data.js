@@ -3336,7 +3336,7 @@ data = [
     audio: "https://600tuvungtoeic.com/audio/judge.mp3",
   },
   {
-    english: "Mix-up /'miks'ʌp/",
+    english: "mix-up /'miks'ʌp/",
     hint: "a situation that is full of confusion, especially because somebody has made a mistake",
     meaning: "‹sự› lộn xộn, hỗn độn, hỗn loạn; cuộc đánh lộn",
     example:
